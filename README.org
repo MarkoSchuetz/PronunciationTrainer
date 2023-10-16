@@ -1,0 +1,61 @@
+Learning good pronunciation in a foreign language takes a lot of practice for most
+learners. If the learner has no prior experience with tonal languages then achieving good
+pronunciation is even more difficult. But coming from a tonal language learning a
+non-tonal one might prove just as challenging.
+
+Some literature (e.g. [1]) reports that imitation learning is highly effective not
+only to acquire good pronunciation, but also to improve listening comprehension.
+
+To my knowledge current Mandarin learning apps that do make use of the imitation technique
+give graphical feedback only in the form of different colored syllables: e.g. SuperChinese
+shows the syllable in red if the pronunciation matches very poorly, in gray the indicate
+passing, and in green for a good match. The learner does not get more specific feedback
+than that.
+
+Tools used for phonology [3] or musicology [2] can and have been used for pronunciation
+training with the imitation technique [citation needed]. Among their features is the
+graphical display of pitch curves. Pitch curves give more feedback insofar as the user can
+see, for example, that the pitch of their syllable drops where the corresponding syllable
+in the target utterance remains flat.
+
+However, these tools are not primarily targeted at pronunciation training and the user
+experience of using these tools for pronunciation training is quite tedious. Some of the
+drawbacks of using these tools are: they do not support many different file formats and so
+the material to imitate might have to be converted before it can be used. Similarly, these
+tools rely on external tools for cropping the part to be imitated from a longer
+recording. Also, there are no versions of these tools for mobile devices, which might
+actually be the greatest drawback.
+
+The idea would then be to create a tool that:
+- provides means to work with existing recordings locally (different file formats, tools
+  for clipping and cropping, categorizing)
+- runs the user through a convenient workflow of listening, imitating, comparing with
+  their target
+- connects the user to an online collection of target utterances shared by the community
+- provides means to easily adapt to existing online sources (e.g. youglish)
+- maintains records and statistics of the user's attempts
+
+As possible extensions one could consider adding a party-mode: several learners pronounce
+the same target utterance and each can hear the others' attempts, discuss them,...
+
+Learners could flag their best imitations to showcase them for other users to see.
+
+Another possible (maybe further away) extension could be to provide a purely
+voice/speech-oriented user interface. Such an interface would make the tool accessible to
+visually impaired persons, but it would also let users use the app in contexts in which
+they need to focus their vision on something else, for example while driving a car. This
+latter extension would let drivers use their commute time for pronunciation training. Of
+course, there are also many unknowns here: how badly does a noisy environment affect the
+usability of the app, for example.
+
+[1] Adank, P., Hagoort, P., & Bekkering, H. (2010). Imitation Improves Language
+Comprehension. Psychological Science, 21(12),
+1903–1909. https://doi.org/10.1177/0956797610389192
+
+[2] Matthias Mauch, Chris Cannam, Rachel Bittner, George Fazekas, Justin Salamon, Jiajie
+Dai, Juan Bello and Simon Dixon, Computer-aided Melody Note Transcription Using the Tony
+Software: Accuracy and Efficiency, in Proceedings of the First International Conference on
+Technologies for Music Notation and Representation, 2015.
+
+[3] Paul Boersma & David Weenink (1992–2023): Praat: doing phonetics by computer [Computer
+program].  Version 6.3.16, retrieved 29 August 2023 from https://www.praat.org.
